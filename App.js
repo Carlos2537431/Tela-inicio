@@ -51,8 +51,8 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   image: {
-    width: 355, // Largura da imagem
-    height: 300, // Altura da imagem
+    width: 355, 
+    height: 300, 
     marginBottom: 20, 
     marginTop: 200,
   },
@@ -105,17 +105,16 @@ const styles = StyleSheet.create({
   },
   topBar: {
     width: '100%',
-    height: 60, // Altura da aba
-    backgroundColor: '#ccc', // Fundo cinza
+    height: 60, 
+    backgroundColor: '#ccc', 
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: 0, // Posiciona no topo
-    zIndex: 1, // Garante que fique acima de outros elementos
+    top: 0, 
+    zIndex: 1, 
   },
   topBarText: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#333', // Cor do texto
   },
 });
